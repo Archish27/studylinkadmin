@@ -1,0 +1,20 @@
+Student
+sid sname address phno emailid mothername fathername mothernum fathernum motheremail fatheremail branch college
+
+Semester
+enroll_id sid sem
+
+enrolls
+enroll_id subject_name 
+
+fees
+enroll_id total_fees date_of_admission discount discount_description
+
+payment
+invoice_num pid enroll_id pay_amt mode bank bank_br cheque_num cheque_date pay_date
+
+Cheque_Status
+invoice_num pid chq_status
+
+Enquiry
+enq_id stud_name stud_add stud_mob resi_num email_id college perc_in_prev_exam branch sem reference date_of_enquiry
